@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightslategrey;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+ 
+   padding: 30px;
+   display: flex;
+   justify-content: center;
+  
+}
+.main a{
+    margin:20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.sidebar p{
+    text-align: center;
+    font-family: bold;
+    font-size: 20px;
+
+    
+}
+.sidebar p button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+}
+/* abouts */
+
+.ab p{
+  
+   margin: 10px;
+   padding: 20px;
+  font-size: 20px;
+}
+/*contact*/
+.count{
+    
+}
+.cont p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    padding: 20px;
+    
+}
+/*educational details*/
+
+.tab table{
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    height: 200px;
+}
+.tab table ,th, td{
+    border: 2px double black;
+    text-align: center;
+}
+
+
+@media only screen and (max-width : 480px) {
+    .container{
+        height: 100vh;
+        width: 80vw;
+    }
+    .main a{
+        margin:5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    } 
+    .cont p{
+        font-size: 20px;
+        font-family: sans-serif;
+        margin:0px;
+        padding: 5px;
+        
+    }
+} 
